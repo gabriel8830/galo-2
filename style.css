@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+}
+img{
+     text-align: center;
+     border-radius: 10%; 
+}
+footer{
+    border-radius: 10%;
+    border: coral;
+    background-color: rgb(185, 185, 0);
+}
+button{
+    border-radius: 15%;
+    background-color: rgb(185, 185, 0);
+}
+h1{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    text-align: center;
+}
+p{
+    background-color: white;
+}
+text{
+    background-color: rgb(175, 175, 175);
+}
