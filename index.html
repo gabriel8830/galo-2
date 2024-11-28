@@ -73,8 +73,8 @@ De modalidades esportivas importantes ao longo da história atleticana, destacam
     <hr>
     <form action="" method="get">
 
-        Nome: <input type="text" name="nome"> <br>
-        Senha: <input type="password" name="senha"> <br>
+        Nome: <input type="text" name="nome" required> <br>
+        Senha: <input type="password" name="senha" required> <br>
         <br>
 
         Você torce para o GALO: <br>
@@ -106,10 +106,16 @@ De modalidades esportivas importantes ao longo da história atleticana, destacam
         <input type="range"><br>
         <input type="submit" value="enviar">
         <input type="reset" value="resetar">
-
-
+        <hr>
+        deixe sua mensagem de apoio: <br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea><br>
+        <button type="button" onclick="alert('GALO!!!')">botão</button><br>
+        atributos de entrada HTML <br>
+        <input type="text" name="nome" value="Maria"><br>
+        <input type="text" name="nome" value="José" readonly>
+        <input type="text" name="nome" value="Ana" disabled>
     </form><br>
-    <button>proxima pagina</button>
+    
     <a href="contato.html">CONTATO</a>
 <footer>&copy; todos os direitos reservados. 2024</footer>
 </header>
