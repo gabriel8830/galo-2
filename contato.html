@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
     <title>Noticia GALO</title>
 </head>
 <body>
@@ -18,8 +19,23 @@
     <form action="" method="get">
         crie sua conta: <br>
         NOME:<input type="text" required><br>
-        E-MAIL: <input type="text" required><br>
+        E-MAIL: <input type="email" required><br>
         SENHA: <input type="password" required>
+        <hr>
+        informaçoes pessoais: <br>
+        Telefone: <input type="text" required><br>
+        Data de nascimento: <input type="date" required>
+        <hr>
+        genero: <br>
+        <input type="radio" name="genero" value="Masculino" > Masculino <br>
+        <input type="radio" name="genero" value="Feminino"> Feminino
+        <hr>
+        mensagem: <br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea> <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="resetar">
+
+
 
     </form>
 
