@@ -1,7 +1,7 @@
 body{
     text-align: center;
     background-color: rgb(175, 175, 175);
-    font: caption
+    font-family: Arial, Helvetica, sans-serif;
 }
 img{
      text-align: center;
@@ -20,10 +20,14 @@ h1{
     background-color: rgb(0, 0, 0);
     border-radius: 10%;
     text-align: center;
+    
 }
 p{
     background-color: white;
 }
 text{
     background-color: rgb(175, 175, 175);
+}
+a{
+    text-decoration: none;
 }
