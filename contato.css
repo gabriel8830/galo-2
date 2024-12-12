@@ -6,3 +6,12 @@ body{
 form{
     border-radius: 10%;
 }
+h1{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    text-align: center;
+    
+}
+#galo{
+    background-color: white;
+}
